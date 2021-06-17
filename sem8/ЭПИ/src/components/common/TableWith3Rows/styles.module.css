@@ -1,0 +1,67 @@
+.content {
+    display: grid;
+
+    grid-template-areas:
+        "lcg tg";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.border {
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title {
+    font-family: Poppins-Regular, serif;
+    text-align: center;
+}
+
+.lcgSection {
+    grid-area: lcg;
+}
+
+.tableSection {
+    grid-area: tg;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableHeaders {
+    background: #6c7ae0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tableHeader {
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.tableRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tableRowEval {
+    display: grid;
+}
+
+.elem {
+    text-align: center;
+    font-family: Poppins-Regular, serif;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.2;
+    font-weight: unset !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f2f2f2;
+}

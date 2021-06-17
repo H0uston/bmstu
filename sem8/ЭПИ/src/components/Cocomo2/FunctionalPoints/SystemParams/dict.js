@@ -1,0 +1,16 @@
+export const titles = {
+    dataTransfer: 'Передача данных',
+    distributedDataProcessing: 'Распределённая обработка данных',
+    performance: 'Производительность',
+    operationalLimitations: 'Экспуатационные ограничения',
+    transactionFrequency: 'Частота транзакций',
+    promptDataEntry: 'Оперативный ввод данных',
+    endUserEfficiency: 'Эффективность работы конечных пользователей',
+    operationalUpdate: 'Оперативное обновление',
+    complexityOfProcessing: 'Сложность обработки',
+    reusability: 'Повторная используемость',
+    easeOfInstallation: 'Лёгкость инсталяции',
+    easeOfUse: 'Лёгкость экспуатации',
+    numOfPossInstallsOnPlats: 'Количество возможных установок на различных платформах',
+    flexibility: 'Простота изменений (гибкость)',
+}

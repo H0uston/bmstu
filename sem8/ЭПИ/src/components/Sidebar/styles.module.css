@@ -1,0 +1,23 @@
+.sidebarContent {
+    grid-area: sidebar;
+    background-color: white;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.labInfo {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 0 10px 20px;
+}
+
+a:hover {
+    background-color: gainsboro;
+}
+
+.active {
+    font-weight: bold;
+}

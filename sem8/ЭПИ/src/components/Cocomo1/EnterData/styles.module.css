@@ -1,0 +1,20 @@
+.enterDataContent {
+    padding: 20px;
+    width: 900px;
+}
+
+.title {
+    font-size: 18px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.total {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wrongTotal {
+    color: red;
+}
