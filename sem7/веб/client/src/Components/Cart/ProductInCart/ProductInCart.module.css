@@ -1,0 +1,110 @@
+* h1 {
+    font-size:44px;
+}
+
+* h2 {
+    font-size:26px;
+}
+
+* h3 {
+    font-size:16px;
+}
+
+* h4 {
+    font-size:11px;
+    color:#6C6868;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.incrementerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CartProduct {
+    display:flex;
+    justify-content: center;
+
+    margin-top: 20px;
+
+    width:1140px;
+    height: 109px;
+    background-color:#C8E6C9;
+    border:2px solid black;
+    border-radius:20px;
+    position:relative;
+}
+
+.CartProductImg img {
+    margin-left:40px;
+    width:140px;
+    height: 109px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    object-fit: cover;
+}
+
+.CartProductNameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:20px;
+    width:250px;
+    height: 109px;
+    top:0;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.CartProductPriceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:160px;
+    height: 109px;
+    top:0;
+    padding-right: 40px;
+}
+
+.CartProductCloseButton button{
+    border:1px solid black;
+    width:26px;
+    height:26px;
+    border-radius:100%;
+    background-color:#FF9600;
+    font-size:20px;
+    position:absolute;
+    top:4px;
+    right:4px;
+}
+
+.CartProductCloseButton img{
+    width:16px;
+    height:16px;
+    position: relative;
+    left: -2px;
+}
+
+.CartProductTotalAmountContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 109px;
+    width: 300px;
+    margin-left: 5px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

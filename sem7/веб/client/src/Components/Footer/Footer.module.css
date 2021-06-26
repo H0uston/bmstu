@@ -1,0 +1,37 @@
+
+.footerComponent {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+
+    align-content: end;
+    justify-content: flex-end;
+
+    flex-direction: row;
+    align-items: center;
+
+    height: 70px;
+    width: 1440px;
+    background-color: #C8E6C9;
+
+    border-top: 2px solid black;
+
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.logo
+{
+    margin-left: 20px;
+}
+
+.logo > img
+{
+    width: 45px;
+    height: 45px;
+}
