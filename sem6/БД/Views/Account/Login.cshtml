@@ -1,0 +1,65 @@
+﻿@model DistanceLearning.ViewModels.LoginModel
+<div class="validation-login">
+    <h2 class="login">Авторизация</h2>
+    @if (!(ViewData.ModelState["Incorrect password"] is null))
+    {
+        <form id="login" asp-action="Login" asp-controller="Account" asp-anti-forgery="true" class="validation-form-login model_invalid model">
+            <p class="model__error-msg">@Html.ValidationMessage("Incorrect password")</p>
+            <p class="form__error-msg">Форма содержит ошибки</p>
+            <div class="form-group">
+                <input class="text-folder"
+                       type="text"
+                       asp-for="Email"
+                       placeholder="Электропочта"
+                       data-validator="email" />
+                <span asp-validation-for="Email" />
+            </div>
+            <div class="form-group">
+                <input class="text-folder" asp-for="Password" placeholder="Пароль" />
+                <span asp-validation-for="Password" />
+            </div>
+            <div class="form-group">
+                <input type="submit"
+                       value="Войти" 
+                       class="btn btn-outline-dark enter" />
+            </div>
+            <p class="registration">Новый пользователь? <a asp-action="Register" asp-controller="Account">Регистрация</a></p>
+        </form>
+    }
+    else
+    {
+        <form id="login" asp-action="Login" asp-controller="Account" asp-anti-forgery="true" class="validation-form-login">
+            <p class="form__error-msg">Форма содержит ошибки</p>
+            <div class="form-group">
+                <input class="text-folder"
+                       type="text"
+                       asp-for="Email"
+                       placeholder="Электропочта"
+                       data-validator="email" />
+                <span asp-validation-for="Email" />
+            </div>
+            <div class="form-group">
+                <input class="text-folder" asp-for="Password" placeholder="Пароль" required/>
+                <span asp-validation-for="Password" />
+            </div>
+            <div class="form-group">
+                <input type="submit"
+                       value="Войти" 
+                       class="btn btn-outline-dark enter" />
+            </div>
+            <p class="registration">Новый пользователь? <a asp-action="Register" asp-controller="Account">Регистрация</a></p>
+        </form>
+    }
+</div>
+<script src="~/js/site.js"></script>
+<script>
+    // Вызов валидатора формы
+    validateForm({
+        formId: 'login',
+        formValidClass: 'form_valid',
+        formInvalidClass: 'form_invalid',
+        modelInvalidClass: 'model_invalid',
+
+        inputErrorClass: 'input_error'
+    });
+</script>

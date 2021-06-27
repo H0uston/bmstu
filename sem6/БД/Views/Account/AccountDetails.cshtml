@@ -1,0 +1,155 @@
+﻿@model DistanceLearning.ViewModels.AccountDetailsModel; 
+@{
+    ViewData["Title"] = "AccountDetails";
+}
+
+<div class="main-container">
+    <div class="list-courses">
+        <h2>Группы</h2>
+        @foreach (var item in Model.Groups)
+        {
+            <div class="card shadow-sm bg-white rounded">
+                <h5 class="card-header">@item.Name</h5>
+                <div class="card-body">
+                    <img src="@item.IconPath" alt="" />
+                    <a asp-controller="Group" asp-action="GroupDetails" asp-route-groupId="@item.Id" class="btn btn-outline-dark">Подробнее</a>
+                </div>
+            </div>
+            <br />
+        }
+    </div>
+    @if (!(ViewData.ModelState["error_message"] is null)) // Ошибка в первой форме
+    {
+        <div class="account-info">
+            <h2>Редактирование информации</h2>
+            <form id="editing" class="accountdetails_model_invalid edit-section" asp-anti-forgery="true" method="post">
+                <p class="model__error-msg"> @Html.ValidationMessage("error_message")</p>
+                <p class="form__error-msg">Неверный формат</p>
+                <input asp-for="Name" name="name" type="text" value="@Model.Name" data-validator="letters" />
+                <label for="name">ФИО:</label>
+                <input asp-for="Email" name="email" type="text" value="@Model.Email" data-validator="email" />
+                <label for="name">Электропочта:</label>
+                @if (@Model.Date == "" || @Model.Date is null)
+                {
+                    <input asp-for="Date" type="text" value="@Model.Date" data-validator="date" />
+                }
+                else
+                {
+                    <input asp-for="Date" type="text" value="@Model.Date.Substring(0, 10)" data-validator="date" />
+                }
+                <label for="birthday">Дата Рождения (ДД.ММ.ГГ):</label>
+                <select style="text-align-last: center" class="text-center" asp-for="University" asp-items="ViewBag.Universities">
+                    <option>ВУЗ не выбран</option>
+                </select>
+                <label for="university">Университет</label>
+                <input class="btn-outline-dark btn" type="submit" value="Сохранить" asp-action="Edit" asp-controller="Account" />
+            </form>
+            <form id="change-password" class="change-password" method="post" asp-anti-forgery="true">
+                <p class="model__error-msg"></p>
+                <input asp-for="Old_password" name="old_password" type="password" asp-validation-for="Password" required />
+                <label for="old_password">Старый пароль:</label>
+                <input asp-for="New_password" name="new_password" type="password" class="password" asp-validation-for="Password" />
+                <label for="new_password">Новый пароль:</label>
+                <input asp-for="Confirm_Password" name="confirm_password" type="password" class="confirm-password" asp-validation-for="Password" />
+                <label for="confirm_new_password">Повторите новый пароль:</label>
+                <input class="btn-outline-dark btn" id="change-password" type="submit" value="Сохранить" asp-action="Change_password" asp-controller="Account" />
+            </form>
+        </div>
+    }
+    else if (!(ViewData.ModelState["wrong_password"] is null))  // Ошибка во втором модуле
+    {
+        <div class="account-info">
+            <h2>Редактирование информации</h2>
+            <form id="editing" class="edit-section" asp-anti-forgery="true" method="post">
+                <p class="model__error-msg"></p>
+                <p class="form__error-msg">Неверный формат</p>
+                <input asp-for="Name" name="name" type="text" value="@Model.Name" data-validator="letters" />
+                <label for="name">ФИО:</label>
+                <input asp-for="Email" name="email" type="text" value="@Model.Email" data-validator="email" />
+                <label for="name">Электропочта:</label>
+                @if (@Model.Date == "" || @Model.Date is null)
+                {
+                    <input asp-for="Date" type="text" value="@Model.Date" data-validator="date" />
+                }
+                else
+                {
+                    <input asp-for="Date" type="text" value="@Model.Date.Substring(0, 10)" data-validator="date" />
+                }
+                <label for="birthday">Дата Рождения (ДД.ММ.ГГ):</label>
+                <select style="text-align-last: center" class="text-center" asp-for="University" asp-items="ViewBag.Universities">
+                    <option>ВУЗ не выбран</option>
+                </select>
+                <label for="university">Университет</label>
+                <input class="btn-outline-dark btn" type="submit" value="Сохранить" asp-action="Edit" asp-controller="Account" />
+            </form>
+            <form id="change-password" class="accountdetails_model_invalid change-password" method="post" asp-anti-forgery="true">
+                <p class="model__error-msg">@Html.ValidationMessage("wrong_password")</p>
+                <input asp-for="Old_password" name="old_password" type="password" asp-validation-for="Password" required />
+                <label for="old_password">Старый пароль:</label>
+                <input asp-for="New_password" name="new_password" type="password" class="password" asp-validation-for="Password" />
+                <label for="new_password">Новый пароль:</label>
+                <input asp-for="Confirm_Password" name="confirm_password" type="password" class="confirm-password" asp-validation-for="Password" />
+                <label for="confirm_new_password">Повторите новый пароль:</label>
+                <input class="btn-outline-dark btn" id="change-password" type="submit" value="Сохранить" asp-action="Change_password" asp-controller="Account" />
+            </form>
+        </div>
+    }
+    else // Ошибок нет
+    {
+        <div class="account-info">
+            <h2>Редактирование информации</h2>
+            <form id="editing" class="edit-section" asp-controller="Account" asp-anti-forgery="true">
+                <p class="model__error-msg"></p>
+                <p class="form__error-msg">Неверный формат</p>
+                <input asp-for="Name" name="name" type="text" value="@Model.Name" data-validator="letters" />
+                <label for="name">ФИО:</label>
+                <input asp-for="Email" name="email" type="text" value="@Model.Email" data-validator="email" />
+                <label for="name">Электропочта:</label>
+                @if (@Model.Date == "" || @Model.Date is null)
+                {
+                    <input asp-for="Date" type="text" value="@Model.Date" data-validator="date" />
+                }
+                else
+                {
+                    <input asp-for="Date" type="text" value="@Model.Date.Substring(0, 10)" data-validator="date" />
+                }
+                <label for="birthday">Дата Рождения (ДД.ММ.ГГ):</label>
+                <select style="text-align-last: center" class="text-center" asp-for="University" asp-items="ViewBag.Universities">
+                    <option>ВУЗ не выбран</option>
+                </select>
+
+                <label for="university">Университет</label>
+                <input class="btn-outline-dark btn" asp-action="Edit" type="submit" value="Сохранить" />
+            </form>
+            <form method="post" id="change-password" class="change-password" asp-controller="Account" asp-anti-forgery="true">
+                <p class="model__error-msg"></p>
+                <input asp-for="Old_password" name="old_password" type="password" required />
+                <label for="old_password">Старый пароль:</label>
+                <input asp-for="New_password" name="new_password" type="password" class="password" required />
+                <label for="new_password">Новый пароль:</label>
+                <input asp-for="Confirm_Password" name="confirm_password" type="password" class="confirm-password" required />
+                <label for="confirm_new_password">Повторите новый пароль:</label>
+                <input class="btn-outline-dark btn" asp-action="Change_password" type="submit" value="Сохранить" />
+            </form>
+        </div>
+    }
+</div>
+<script src="~/js/site.js"></script>
+<script>
+    // Вызов валидатора формы
+    validateForm({
+        formId: 'editing',
+        formValidClass: 'form_valid',
+        formInvalidClass: 'form_invalid',
+        modelInvalidClass: 'accountdetails_model_invalid',
+
+        inputErrorClass: 'input_error'
+    }, {
+        formId: 'change-password',
+        formValidClass: 'form_valid',
+        formInvalidClass: 'form_invalid',
+        modelInvalidClass: 'accountdetails_model_invalid',
+
+        inputErrorClass: 'input_error'
+    });
+</script>

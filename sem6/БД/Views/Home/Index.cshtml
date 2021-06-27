@@ -1,0 +1,69 @@
+﻿@model DistanceLearning.ViewModels.HomeGroupsViewModel;
+@{
+    ViewData["Title"] = "Home Page";
+    ViewData["name"] = User.Identity.Name;
+}
+
+<div class="text-center">
+  <h1 class="display-4">Добро пожаловать на портал Distance Learning</h1>
+</div>
+@if (Model.user is null)
+{
+    <h1>Авторизуйтесь для отображения групп.</h1>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-10">
+            @{ int currentGroup = 0;}
+            @foreach (var group in Model.groups)
+            {
+                <div class="card">
+                    <h5 class="card-header">
+                        @group.Name
+                        @if (group.Private == true)
+                        {
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        }
+                        else
+                        {
+                            <i class="fa fa-unlock" aria-hidden="true"></i>
+                        }
+
+                    </h5>
+                    <div class="card-body">
+                        @if (group.Private == true)
+                        {
+                            @if (Model.valuePair.ElementAt(currentGroup).Key == true)
+                            {
+                                <a asp-controller="Group" asp-action="GroupDetails" asp-route-groupId="@group.Id" class="btn btn-success">Подробнее</a>
+                            }
+                            else
+                            {
+                                @if (Model.valuePair.ElementAt(currentGroup).Value == true)
+                                {
+                                    <button type="button" href="#" class="btn btn-outline-secondary disabled">Ожидайте рассмотрения заявки</button>
+                                }
+                                else
+                                {
+                                    <a asp-controller="RequestLists" asp-action="CreateRequest"
+                                       asp-route-groupId="@group.Id" asp-route-userId="@Model.user.Id" class="btn btn-info">Отправить заявку</a>
+                                }
+                            }
+                        }
+                        else
+                        {
+                            <a asp-controller="Group" asp-action="GroupDetails" asp-route-groupId="@group.Id" class="btn btn-success">Подробнее</a>
+                        }
+
+                    </div>
+                </div>
+
+                <br />
+                currentGroup++;
+            }
+        </div>
+    </div>
+
+}
+

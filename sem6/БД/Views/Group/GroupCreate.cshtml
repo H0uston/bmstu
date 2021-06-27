@@ -1,0 +1,54 @@
+﻿@model DistanceLearning.ViewModels.GroupModel;
+
+@if (ViewData.ModelState.ErrorCount == 0)
+{
+    <div class="validation-create-group">
+        <h2 class="validation-group">Создать группу</h2>
+        <form id="create_group" class="validation-form-create-group" method="post" enctype="multipart/form-data">
+            <p class="form__error-msg">Форма содержит ошибки</p>
+            <input class="text-folder"
+                   type="text"
+                   asp-for="Name"
+                   placeholder="Название группы" required />
+            <div class="create-group-checkbox">
+                <label for="Private">Закрытая группа: </label>
+                <input type="checkbox" name="Private" asp-for="Private" />
+            </div>
+            <input asp-for="Image" type="file" name="Image" accept="image/png,image/jpeg,image/jpg" />
+            <input class="btn btn-outline-dark" asp-controller="Group" asp-action="CreateGroup" type="submit" value="Создать" />
+        </form>
+    </div>
+}
+else
+{
+    <div class="validation-create-group">
+        <h2 class="validation-group">Создать группу</h2>
+        <form id="create_group" class="validation-form-create-group model_invalid" method="post" enctype="multipart/form-data">
+            <p class="model__error-msg">@Html.ValidationMessage("error_message")</p>
+            <p class="form__error-msg">Форма содержит ошибки</p>
+            <input class="text-folder"
+                   type="text"
+                   asp-for="Name"
+                   placeholder="Название группы" required />
+            <div class="create-group-checkbox">
+                <label for="Private">Закрытая группа: </label>
+                <input type="checkbox" name="Private" asp-for="Private" />
+            </div>
+            <input asp-for="Image" type="file" name="Image" accept="image/png,image/jpeg,image/jpg" />
+            <input class="btn btn-outline-dark" asp-controller="Group" asp-action="CreateGroup" type="submit" value="Создать" />
+        </form>
+    </div>
+}
+
+<script src="~/js/site.js"></script>
+<script>
+    // Вызов валидатора формы
+    validateForm({
+        formId: 'validation-form-create-group',
+        formValidClass: 'form_valid',
+        formInvalidClass: 'form_invalid',
+        modelInvalidClass: 'create_group_model_invalid',
+
+        inputErrorClass: 'input_error'
+    });
+</script>

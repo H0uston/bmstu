@@ -1,0 +1,59 @@
+﻿@model IEnumerable<DistanceLearning.RequestList>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Заявки</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAwaiting)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsAccepted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDenied)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Group)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAwaiting)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsAccepted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDenied)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Group.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Email)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-userId="@item.UserId" asp-route-groupId="@item.GroupId">Edit</a> |
+                <a asp-action="Details" asp-route-userId="@item.UserId" asp-route-groupId="@item.GroupId">Details</a> |
+                <a asp-action="Delete" asp-route-userId="@item.UserId" asp-route-groupId="@item.GroupId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

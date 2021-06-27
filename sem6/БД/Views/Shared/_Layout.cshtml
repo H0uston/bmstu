@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DistanceLearning</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/forms.css" />
+    <link rel="stylesheet" href="~/css/registration.css" />
+    <link rel="stylesheet" href="~/css/login.css" />
+    <link rel="stylesheet" href="~/css/accountdetails.css" />
+    <link rel="stylesheet" href="~/css/group_details.css" />
+    <link rel="stylesheet" href="~/css/create_group.css" />
+    <link rel="stylesheet" href="~/lib/components-font-awesome/css/font-awesome.css" />
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DistanceLearning</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                @if (!User.Identity.IsAuthenticated)
+                {
+                    <ul class="nav navbar-nav navbar-right ml-auto">
+                        <li class="navbar-right navbar-nav nav">
+                            <a class="btn btn-outline-dark" asp-controller="Account" asp-action="login">Войти</a>
+                        </li>
+                    </ul>
+                }
+                else
+                {
+                    <ul class="nav navbar-nav">
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-bars" aria-hidden="true"> Меню </i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item " asp-controller="Categories" asp-action="Index">Категории</a>
+                                <a class="dropdown-item " asp-controller="Files" asp-action="Index">Файлы</a>
+                                <a class="dropdown-item " asp-controller="GroupDescriptions" asp-action="Index">Группы</a>
+                                <a class="dropdown-item " asp-controller="Participations" asp-action="Index">Участия в группах</a>
+                                <a class="dropdown-item " asp-controller="Progresses" asp-action="Index">Информация о прогрессе</a>
+                                <a class="dropdown-item " asp-controller="RequestLists" asp-action="Index">Информация о заявках</a>
+                                <a class="dropdown-item " asp-controller="Roles" asp-action="Index">Информация о ролях</a>
+                                <a class="dropdown-item " asp-controller="Universities" asp-action="Index">Университеты</a>
+                                <a class="dropdown-item " asp-controller="UserDescriptions" asp-action="Index">Информация о пользователях</a>
+                                <div class="dropdown-divider"></div>
+                            </div>
+                        </li>
+                    }
+
+                    <li class="navbar-nav flex-grow-1 nav-item">
+                        <form asp-controller="Group" asp-action="CreateGroupIndex">
+                            <input type="submit" class="btn btn-outline-dark" value="Создать группу" />
+                        </form>
+                    </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right ml-auto">
+                        <li class="mr-auto navbar-nav nav-item nav-link">
+                            <a asp-controller="Account" asp-action="AccountDetails">@User.Identity.Name</a>
+                        </li>
+                        <li class="mr-auto navbar-nav nav-item">
+                            <form asp-controller="Account" asp-action="logout">
+                                <input type="submit" class="btn btn-outline-dark" value="выйти" />
+                            </form>
+                        </li>
+                    </ul>
+
+
+                }
+            </div>
+        </nav>
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - DistanceLearning
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

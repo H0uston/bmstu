@@ -1,0 +1,317 @@
+﻿
+
+.main-container {
+    display: grid;
+    grid-template-columns: 40% 5% 55%;
+    min-width: 1000px;
+}
+
+.list-courses {
+    grid-column: 1;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .2);
+    border: 1px solid #dee2e6;
+    overflow: auto;
+    max-height: 700px;
+}
+
+.list-courses > div.card {
+    margin: 0 20px;
+}
+
+.card-body > img {
+    width: 75px;
+    height: 75px;
+    border: 2px #eee solid;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .2);
+}
+
+.list-courses > .card > .card-body {
+    display: flex;
+    padding: 10px;
+}
+
+.list-courses > .card > .card-body > a {
+    margin-left: 125px;
+    height: 40px;
+    align-self: center;
+}
+
+.account-info {
+    grid-column: 3;
+    height: 700px;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .2);
+    border: 1px solid #dee2e6;
+
+    display: grid;
+    grid-template-rows: 10px 34px 10px 50% 20px 40%;
+}
+
+.edit-section > select {
+    border: 2px #eee solid;
+    width: 195px;
+}
+
+.edit-section {
+    display: grid;
+    grid-template-columns: 40% 5% 55%;
+    grid-template-rows: 12% 15px 12% 15px 12% 15px 12% 15px 12% 15px 12% 15px;
+    justify-items: center;
+    padding-left: 25px;
+}
+
+.form__error-msg, .model__error-msg {
+    width:200px
+}
+
+.accountdetails_model_invalid > .model__error-msg {
+    display: block;
+    width: 220px;
+}
+
+.edit-section > input[type="submit"], .change-password > input[type="submit"] {
+    width: 200px;
+    height: 34px;
+    padding-top: 3px;
+}
+
+input[type="text"], input[type="password"] {
+    text-align: center;
+}
+
+.account-info > h2 {
+    text-align: center;
+    grid-row: 2;
+}
+
+.account-info > .edit-section {
+    grid-row: 4;
+}
+
+.account-info > .change-password {
+    grid-row: 6;
+    display: grid;
+    grid-template-columns: 40% 5% 55%;
+    grid-template-rows: 15% 15px 15% 15px 15% 15px 15% 15px 15% 15px;
+    justify-items: center;
+    padding-left: 25px;
+}
+
+.edit-section :nth-child(3) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.edit-section :nth-child(4) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.edit-section :nth-child(5) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.edit-section :nth-child(6) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.edit-section :nth-child(7) {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.edit-section :nth-child(8) {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.edit-section :nth-child(9) {
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.edit-section :nth-child(10) {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.edit-section :nth-child(11) {
+    grid-column: 2;
+    grid-row: 9;
+}
+
+.edit-section.form_invalid :nth-child(2) {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.edit-section.form_invalid :nth-child(3) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.edit-section.form_invalid :nth-child(4) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.edit-section.form_invalid :nth-child(5) {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.edit-section.form_invalid :nth-child(6) {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.edit-section.form_invalid :nth-child(7) {
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.edit-section.form_invalid :nth-child(8) {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.edit-section.form_invalid :nth-child(9) {
+    grid-column: 3;
+    grid-row: 9;
+}
+
+.edit-section.form_invalid :nth-child(10) {
+    grid-column: 1;
+    grid-row: 9;
+}
+
+.edit-section.form_invalid :nth-child(11) {
+    grid-column: 2;
+    grid-row: 11;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(1) {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(3) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(4) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(5) {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(6) {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(7) {
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(8) {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(9) {
+    grid-column: 3;
+    grid-row: 9;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(10) {
+    grid-column: 1;
+    grid-row: 9;
+}
+
+.edit-section.accountdetails_model_invalid :nth-child(11) {
+    grid-column: 2;
+    grid-row: 11;
+}
+
+.change-password :nth-child(2) {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.change-password :nth-child(3) {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.change-password :nth-child(4) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.change-password :nth-child(5) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.change-password :nth-child(6) {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.change-password :nth-child(7) {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.change-password :nth-child(8) {
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.change-password.accountdetails_model_invalid :nth-child(1) {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.change-password.accountdetails_model_invalid :nth-child(2) {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.change-password.accountdetails_model_invalid :nth-child(3) {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.change-password.accountdetails_model_invalid :nth-child(4) {
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.change-password.accountdetails_model_invalid :nth-child(5) {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.change-password.accountdetails_model_invalid :nth-child(6) {
+    grid-column: 3;
+    grid-row: 7;
+}
+
+.change-password.accountdetails_model_invalid :nth-child(7) {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.change-password.accountdetails_model_invalid :nth-child(8) {
+    grid-column: 2;
+    grid-row: 9;
+}

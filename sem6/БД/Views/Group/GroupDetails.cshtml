@@ -1,0 +1,131 @@
+﻿@model DistanceLearning.ViewModels.GroupModel
+
+<div class="group-main-container">
+    <div class="group-left-container">
+        <h2>@Model.Name</h2>
+        @if (Model.Role == "Admin")
+        {
+            @if (!(ViewData.ModelState["error_message"] is null))
+            {
+                <form id="group-edit-info" class="group-edit-info model_invalid" asp-controller="Group" asp-action="Edit_info">
+                    <p class="model__error-msg">@Html.ValidationMessage("error_message")</p>
+                    <input type="text" class="text-folder" name="name" asp-for="Name" required />
+                    <div class="group-details-checkbox">
+                        <label for="Private">Закрытая группа: </label>
+                        @if (Model.Private)
+                        {
+                            <input type="checkbox" name="Private" checked asp-for="Private" />
+                        }
+                        else
+                        {
+                            <input type="checkbox" name="Private" asp-for="Private" />
+                        }
+                    </div>
+                    <input style="display: none;" asp-for="Id" value="@Model.Id" />
+                    <input class="btn-outline-dark btn-edit-info btn" value="Редактировать информацию" type="submit" />
+                </form>
+            }
+            else
+            {
+                <form id="group-edit-info" class="group-edit-info" asp-controller="Group" asp-action="Edit_info">
+                    <input type="text" class="text-folder" name="name" asp-for="Name" />
+                    <div class="group-details-checkbox">
+                        <label for="Private">Закрытая группа: </label>
+                        @if (Model.Private)
+                        {
+                            <input type="checkbox" name="Private" checked asp-for="Private" />
+                        }
+                        else
+                        {
+                            <input type="checkbox" name="Private" asp-for="Private" />
+                        }
+                    </div>
+                    <input style="display: none;" asp-for="Id" value="@Model.Id" />
+                    <input class="btn-outline-dark btn-edit-info btn" value="Редактировать информацию" type="submit" />
+                </form>
+            }
+            <div class="group-request-list">
+                <h2>Заявки</h2>
+                @foreach (var item in Model.requests)
+                {
+                    <div class="card shadow-sm bg-white rounded">
+                        <h5 class="card-header">@item.Name</h5>
+                        <div class="card-body">
+                            <p>@item.Email</p>
+                            <a asp-controller="Group" asp-action="AcceptUser" asp-route-userId="@item.Id" asp-route-groupId="@Model.Id" class="btn btn-outline-success">Принять</a>
+                            <a asp-controller="Group" asp-action="DenyUser" asp-route-userId="@item.Id" asp-route-groupId="@Model.Id" class="btn btn-outline-danger">Отказать</a>
+                        </div>
+                    </div>
+                    <br />
+                }
+            </div>
+        }
+    </div>
+    <div class="group-center-container">
+        <h2>Материалы</h2>
+        <form class="group-materials">
+            @foreach (var item in Model.files)
+            {
+                <div class="card shadow-sm bg-white rounded">
+                    <h5 class="card-header">@item.Name</h5>
+                    <div class="card-body">
+                        <p>Дата загрузки: @item.DateOfLoad.ToString().Substring(0, 10)</p>
+                        <a asp-controller="Group" asp-action="DownloadFile" asp-route-fileId="@item.Id" class="btn btn-outline-dark">Скачать</a>
+                        @if (Model.Role == "Admin")
+                        {
+                            <a asp-controller="Group" asp-action="DeleteFile" asp-route-fileId="@item.Id" asp-route-groupId="@Model.Id" class="btn btn-outline-danger">Удалить</a>
+                        }
+                    </div>
+                </div>
+                <br />
+            }
+        </form>
+        @if (Model.Role == "Admin")
+        {
+            <form class="group-load-data" method="post" enctype="multipart/form-data">
+                <input asp-for="File" class="group-choose-data" type="file" name="File" required />
+                <input asp-controller="Group" asp-action="Load_file" class="btn btn-outline-dark" type="submit" value="Загрузить" />
+            </form>
+        }
+    </div>
+    <div class="group-right-container">
+        <h2>Участники</h2>
+        <form class="group-members">
+            @foreach (var item in Model.members)
+            {
+                <div class="card shadow-sm bg-white rounded">
+                    <h5 class="card-header">@item.Name</h5>
+                    <div class="card-body">
+                        <p>Роль: @item.Role</p>
+                        <p>Электропочта: @item.Email</p>
+                        @if (User.Identity.Name == item.Email)
+                        {
+                            <a asp-controller="Group" asp-action="LeaveGroup" asp-route-userId="@item.Id" asp-route-groupId="@Model.Id" class="btn btn-outline-danger">Выйти</a>
+                        }
+                        else
+                        {
+                            @if (Model.Role == "Admin")
+                            {
+                                <a asp-controller="Group" asp-action="DeleteUser" asp-route-userId="@item.Id" asp-route-groupId="@Model.Id" class="btn btn-outline-danger">Выгнать</a>
+                            }
+                        }
+                    </div>
+                </div>
+                <br />
+            }
+        </form>
+    </div>
+</div>
+
+<script src="~/js/site.js"></script>
+<script>
+    // Вызов валидатора формы
+    validateForm({
+        formId: 'group-edit-info',
+        formValidClass: 'form_valid',
+        formInvalidClass: 'form_invalid',
+        modelInvalidClass: 'group_edit_model_invalid',
+
+        inputErrorClass: 'input_error'
+    });
+</script>
