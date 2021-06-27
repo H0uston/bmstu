@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+      "id_customer": {
+        "type": "number"
+      },
+      "name_customer": {
+        "type": "string"
+      },
+      "city_customer": {
+        "type": "string"
+      },
+      "index_customer": {
+        "type": "number"
+      }
+  }
+}

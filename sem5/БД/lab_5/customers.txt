@@ -1,0 +1,103 @@
+{"id_customer":40,"name_customer":"Petroquest Energy Inc","city_customer":"Madrid","index_customer":548000}
+{"id_customer":74,"name_customer":"Interactive Brokers Group, Inc.","city_customer":"Ekateriburg","index_customer":755324}
+{"id_customer":45,"name_customer":"China New Borun Corporation","city_customer":"London","index_customer":292925}
+{"id_customer":68,"name_customer":"Great Elm Capital Corp.","city_customer":"Birmingham","index_customer":345792}
+{"id_customer":103,"name_customer":"Burger King","city_customer":"Nizhny Novgorod","index_customer":948010}
+{"id_customer":64,"name_customer":"Biostage, Inc.","city_customer":"Prague","index_customer":218432}
+{"id_customer":21,"name_customer":"PJT Partners Inc.","city_customer":"Barcelona","index_customer":115243}
+{"id_customer":48,"name_customer":"Tsakos Energy Navigation Ltd","city_customer":"Madrid","index_customer":601709}
+{"id_customer":9,"name_customer":"Rayonier Advanced Materials Inc.","city_customer":"Berlin","index_customer":637284}
+{"id_customer":100,"name_customer":"West Marine, Inc.","city_customer":"Kharkiv","index_customer":241518}
+{"id_customer":49,"name_customer":"First Savings Financial Group, Inc.","city_customer":"Kiev","index_customer":921014}
+{"id_customer":98,"name_customer":"CoreSite Realty Corporation","city_customer":"Prague","index_customer":488915}
+{"id_customer":29,"name_customer":"Identiv, Inc.","city_customer":"Belgrade","index_customer":897053}
+{"id_customer":12,"name_customer":"Tennessee Valley Authority","city_customer":"Madrid","index_customer":924702}
+{"id_customer":42,"name_customer":"Lexicon Pharmaceuticals, Inc.","city_customer":"Minsk","index_customer":271122}
+{"id_customer":1,"name_customer":"Southern California Edison Company","city_customer":"Moscow","index_customer":948010}
+{"id_customer":52,"name_customer":"Raven Industries, Inc.","city_customer":"Bucharest","index_customer":438217}
+{"id_customer":4,"name_customer":"Neptune Technologies & Bioresources Inc","city_customer":"Ufa","index_customer":584998}
+{"id_customer":86,"name_customer":"McDonald's Corporation","city_customer":"Vienna","index_customer":799291}
+{"id_customer":66,"name_customer":"Northrim BanCorp Inc","city_customer":"Kazan","index_customer":569111}
+{"id_customer":7,"name_customer":"Citigroup Inc.","city_customer":"London","index_customer":866210}
+{"id_customer":76,"name_customer":"PriceSmart, Inc.","city_customer":"Paris","index_customer":184880}
+{"id_customer":53,"name_customer":"Nuveen Build America Bond Opportunity Fund","city_customer":"Minsk","index_customer":163135}
+{"id_customer":14,"name_customer":"Aethlon Medical, Inc.","city_customer":"Madrid","index_customer":201265}
+{"id_customer":58,"name_customer":"Halliburton Company","city_customer":"Budapest","index_customer":263646}
+{"id_customer":18,"name_customer":"Prudential Financial, Inc.","city_customer":"Moscow","index_customer":543360}
+{"id_customer":34,"name_customer":"KeyCorp","city_customer":"Vienna","index_customer":697267}
+{"id_customer":101,"name_customer":"BMSTU","city_customer":"Saratov","index_customer":143300}
+{"id_customer":82,"name_customer":"Advantage Oil & Gas Ltd","city_customer":"Rome","index_customer":215632}
+{"id_customer":77,"name_customer":"Eagle Point Credit Company Inc.","city_customer":"Smolensk","index_customer":151421}
+{"id_customer":15,"name_customer":"Ecopetrol S.A.","city_customer":"Bucharest","index_customer":180954}
+{"id_customer":17,"name_customer":"CryoPort, Inc.","city_customer":"Kiev","index_customer":872951}
+{"id_customer":30,"name_customer":"Arrowhead Pharmaceuticals, Inc.","city_customer":"Ufa","index_customer":570499}
+{"id_customer":93,"name_customer":"WisdomTree Barclays Interest Rate Hedged U.S. Aggregate Bond F","city_customer":"Saint Petersburg","index_customer":519594}
+{"id_customer":94,"name_customer":"Enel Chile S.A.","city_customer":"London","index_customer":649561}
+{"id_customer":97,"name_customer":"Southwest Airlines Company","city_customer":"Ufa","index_customer":179853}
+{"id_customer":89,"name_customer":"Canon, Inc.","city_customer":"Berlin","index_customer":773905}
+{"id_customer":75,"name_customer":"R.R. Donnelley & Sons Company","city_customer":"Saratov","index_customer":673513}
+{"id_customer":85,"name_customer":"Progenics Pharmaceuticals Inc.","city_customer":"Warsaw","index_customer":725142}
+{"id_customer":24,"name_customer":"Alon USA Partners, LP","city_customer":"Nizhny Novgorod","index_customer":466359}
+{"id_customer":92,"name_customer":"LifePoint Health, Inc.","city_customer":"Ufa","index_customer":521514}
+{"id_customer":35,"name_customer":"First Trust Municipal CEF Income Opportunity ETF","city_customer":"Warsaw","index_customer":766292}
+{"id_customer":19,"name_customer":"Speedway Motorsports, Inc.","city_customer":"Minsk","index_customer":132921}
+{"id_customer":41,"name_customer":"Gray Television, Inc.","city_customer":"Bucharest","index_customer":277434}
+{"id_customer":16,"name_customer":"Forrester Research, Inc.","city_customer":"Hamburg","index_customer":936968}
+{"id_customer":56,"name_customer":"Vermilion Energy Inc.","city_customer":"Vienna","index_customer":629158}
+{"id_customer":73,"name_customer":"Foresight Energy LP","city_customer":"Saratov","index_customer":640820}
+{"id_customer":33,"name_customer":"Bel Fuse Inc.","city_customer":"Kharkiv","index_customer":273764}
+{"id_customer":80,"name_customer":"Investors Real Estate Trust","city_customer":"Minsk","index_customer":634880}
+{"id_customer":62,"name_customer":"Microchip Technology Incorporated","city_customer":"Munich","index_customer":195092}
+{"id_customer":8,"name_customer":"Frank's International N.V.","city_customer":"Hamburg","index_customer":819955}
+{"id_customer":20,"name_customer":"Avnet, Inc.","city_customer":"London","index_customer":300092}
+{"id_customer":70,"name_customer":"IRIDEX Corporation","city_customer":"Samara","index_customer":770046}
+{"id_customer":84,"name_customer":"The Finish Line, Inc.","city_customer":"Barcelona","index_customer":874169}
+{"id_customer":50,"name_customer":"M&T Bank Corporation","city_customer":"Rome","index_customer":239514}
+{"id_customer":81,"name_customer":"NL Industries, Inc.","city_customer":"Berlin","index_customer":594871}
+{"id_customer":57,"name_customer":"J P Morgan Chase & Co","city_customer":"Warsaw","index_customer":293520}
+{"id_customer":102,"name_customer":"KFC","city_customer":"Kazan","index_customer":125000}
+{"id_customer":63,"name_customer":"Nuveen New York Municipal Value Fund, Inc.","city_customer":"Milan","index_customer":265298}
+{"id_customer":38,"name_customer":"LCI Industries ","city_customer":"Smolensk","index_customer":437244}
+{"id_customer":43,"name_customer":"Micronet Enertec Technologies, Inc.","city_customer":"Smolensk","index_customer":244741}
+{"id_customer":60,"name_customer":"Antero Resources Corporation","city_customer":"Ekateriburg","index_customer":346367}
+{"id_customer":5,"name_customer":"Xencor, Inc.","city_customer":"Belgrade","index_customer":485214}
+{"id_customer":72,"name_customer":"Arrowhead Pharmaceuticals, Inc.","city_customer":"Ufa","index_customer":458251}
+{"id_customer":54,"name_customer":"Infinera Corporation","city_customer":"Hamburg","index_customer":923437}
+{"id_customer":65,"name_customer":"GTx, Inc.","city_customer":"Nizhny Novgorod","index_customer":312080}
+{"id_customer":32,"name_customer":"ADTRAN, Inc.","city_customer":"Munich","index_customer":317285}
+{"id_customer":78,"name_customer":"WildHorse Resource Development Corporation","city_customer":"Moscow","index_customer":597914}
+{"id_customer":46,"name_customer":"Legg Mason, Inc.","city_customer":"Saint Petersburg","index_customer":142932}
+{"id_customer":51,"name_customer":"AZZ Inc.","city_customer":"Paris","index_customer":541646}
+{"id_customer":83,"name_customer":"Trimble Inc.","city_customer":"Madrid","index_customer":580619}
+{"id_customer":79,"name_customer":"NiSource, Inc","city_customer":"Kiev","index_customer":418121}
+{"id_customer":13,"name_customer":"Pan American Silver Corp.","city_customer":"Rome","index_customer":653476}
+{"id_customer":91,"name_customer":"Scudder Strategic Municiple Income Trust","city_customer":"Moscow","index_customer":756330}
+{"id_customer":23,"name_customer":"Intersect ENT, Inc.","city_customer":"Milan","index_customer":457816}
+{"id_customer":11,"name_customer":"Tocagen Inc.","city_customer":"Prague","index_customer":890311}
+{"id_customer":22,"name_customer":"Ares Capital Corporation","city_customer":"Ekateriburg","index_customer":777886}
+{"id_customer":61,"name_customer":"Weyco Group, Inc.","city_customer":"Kharkiv","index_customer":874337}
+{"id_customer":37,"name_customer":"First Trust Senior Floating Rate Income Fund II","city_customer":"Londom","index_customer":284407}
+{"id_customer":2,"name_customer":"Federated Premier Intermediate Municipal Income Fund","city_customer":"Saint Petersburg","index_customer":689173}
+{"id_customer":27,"name_customer":"ADMA Biologics Inc","city_customer":"Birmingham","index_customer":326007}
+{"id_customer":6,"name_customer":"Wells Fargo & Company","city_customer":"Munich","index_customer":462817}
+{"id_customer":99,"name_customer":"Retail Properties of America, Inc.","city_customer":"Milan","index_customer":540480}
+{"id_customer":88,"name_customer":"VCA Inc. ","city_customer":"Bucharest","index_customer":539599}
+{"id_customer":10,"name_customer":"Greenhill & Co., Inc.","city_customer":"Paris","index_customer":671331}
+{"id_customer":26,"name_customer":"Function(x) Inc.","city_customer":"Sofia","index_customer":164963}
+{"id_customer":28,"name_customer":"AMERIPRISE FINANCIAL SERVICES, INC.","city_customer":"Samara","index_customer":803862}
+{"id_customer":55,"name_customer":"Yatra Online, Inc.","city_customer":"Smolensk","index_customer":690999}
+{"id_customer":96,"name_customer":"TRI Pointe Group, Inc.","city_customer":"Samara","index_customer":294007}
+{"id_customer":95,"name_customer":"ManTech International Corporation","city_customer":"Brussels","index_customer":495198}
+{"id_customer":39,"name_customer":"Hilton Worldwide Holdings Inc.","city_customer":"Berlin","index_customer":403360}
+{"id_customer":90,"name_customer":"Sportsman's Warehouse Holdings, Inc.","city_customer":"Munich","index_customer":243906}
+{"id_customer":87,"name_customer":"New York Mortgage Trust, Inc.","city_customer":"Munich","index_customer":490010}
+{"id_customer":47,"name_customer":"Sensient Technologies Corporation","city_customer":"Berlin","index_customer":650806}
+{"id_customer":59,"name_customer":"First Trust Multi Cap Growth AlphaDEX Fund","city_customer":"Barcelona","index_customer":740785}
+{"id_customer":3,"name_customer":"Huron Consulting Group Inc.","city_customer":"Saratov","index_customer":669571}
+{"id_customer":69,"name_customer":"Brainstorm Cell Therapeutics Inc.","city_customer":"Brussels","index_customer":527297}
+{"id_customer":44,"name_customer":"Lions Gate Entertainment Corporation","city_customer":"Moscow","index_customer":844023}
+{"id_customer":25,"name_customer":"Barnes Group, Inc.","city_customer":"Kazan","index_customer":870651}
+{"id_customer":71,"name_customer":"Global Eagle Entertainment Inc.","city_customer":"Belgrade","index_customer":489501}
+{"id_customer":31,"name_customer":"Webster Financial Corporation","city_customer":"Kazan","index_customer":160851}
+{"id_customer":36,"name_customer":"WisdomTree Japan Hedged SmallCap Equity Fund","city_customer":"Moscow","index_customer":797131}
+{"id_customer":67,"name_customer":"L.S. Starrett Company (The)","city_customer":"Sofia","index_customer":636702}

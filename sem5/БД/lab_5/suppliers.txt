@@ -1,0 +1,102 @@
+{"id_supplier":32,"name_supplier":"TransMontaigne Partners L.P.","city_supplier":"Kharkiv","sector_supplier":"Energy","owner":45}
+{"id_supplier":15,"name_supplier":"Pattern Energy Group Inc.","city_supplier":"Smolensk","sector_supplier":"Public Utilities","owner":1}
+{"id_supplier":23,"name_supplier":"Galmed Pharmaceuticals Ltd.","city_supplier":"Paris","sector_supplier":"Health Care","owner":43}
+{"id_supplier":93,"name_supplier":"Five Oaks Investment Corp.","city_supplier":"Munich","sector_supplier":"Consumer Services","owner":36}
+{"id_supplier":35,"name_supplier":"ORBCOMM Inc.","city_supplier":"Prague","sector_supplier":"Consumer Services","owner":11}
+{"id_supplier":8,"name_supplier":"Madrigal Pharmaceuticals, Inc.","city_supplier":"Ufa","sector_supplier":"Health Care","owner":1}
+{"id_supplier":30,"name_supplier":"Manchester United Ltd.","city_supplier":"Barcelona","sector_supplier":"Consumer Services","owner":90}
+{"id_supplier":5,"name_supplier":"Selecta Biosciences, Inc.","city_supplier":"Prague","sector_supplier":"Health Care","owner":4}
+{"id_supplier":88,"name_supplier":"SI Financial Group, Inc.","city_supplier":"Kiev","sector_supplier":"Finance","owner":38}
+{"id_supplier":20,"name_supplier":"American International Group, Inc.","city_supplier":"Madrid","sector_supplier":"Finance","owner":65}
+{"id_supplier":53,"name_supplier":"Aeglea BioTherapeutics, Inc.","city_supplier":"Vienna","sector_supplier":"Health Care","owner":2}
+{"id_supplier":37,"name_supplier":"Integrated Device Technology, Inc.","city_supplier":"Kazan","sector_supplier":"Technology","owner":63}
+{"id_supplier":24,"name_supplier":"Senior Housing Properties Trust","city_supplier":"Bucharest","sector_supplier":"Consumer Services","owner":98}
+{"id_supplier":19,"name_supplier":"NII Holdings, Inc.","city_supplier":"Berlin","sector_supplier":"Public Utilities","owner":5}
+{"id_supplier":78,"name_supplier":"Trinity Biotech plc","city_supplier":"Ekateriburg","sector_supplier":"Health Care","owner":54}
+{"id_supplier":13,"name_supplier":"Elevate Credit, Inc.","city_supplier":"Paris","sector_supplier":"Finance","owner":5}
+{"id_supplier":12,"name_supplier":"HealthStream, Inc.","city_supplier":"Rome","sector_supplier":"Technology","owner":5}
+{"id_supplier":81,"name_supplier":"KBS Fashion Group Limited","city_supplier":"Brussels","sector_supplier":"Consumer Non-Durables","owner":6}
+{"id_supplier":21,"name_supplier":"The ONE Group Hospitality, Inc.","city_supplier":"Kiev","sector_supplier":"Consumer Services","owner":75}
+{"id_supplier":98,"name_supplier":"Broadway Financial Corporation","city_supplier":"Budapest","sector_supplier":"Finance","owner":85}
+{"id_supplier":6,"name_supplier":"CoreCivic, Inc.","city_supplier":"Sofia","sector_supplier":"Consumer Services","owner":5}
+{"id_supplier":97,"name_supplier":"Spherix Incorporated","city_supplier":"Rome","sector_supplier":"Miscellaneous","owner":38}
+{"id_supplier":3,"name_supplier":"DMC Global Inc.","city_supplier":"Saint Petersburg","sector_supplier":"Capital Goods","owner":2}
+{"id_supplier":48,"name_supplier":"Photronics, Inc.","city_supplier":"Samara","sector_supplier":"Technology","owner":9}
+{"id_supplier":83,"name_supplier":"Star Bulk Carriers Corp.","city_supplier":"Munich","sector_supplier":"Transportation","owner":76}
+{"id_supplier":96,"name_supplier":"Lear Corporation","city_supplier":"Milan","sector_supplier":"Capital Goods","owner":37}
+{"id_supplier":100,"name_supplier":"Taitron Components Incorporated","city_supplier":"Berlin","sector_supplier":"Consumer Non-Durables","owner":95}
+{"id_supplier":41,"name_supplier":"CDI Corporation","city_supplier":"Samara","sector_supplier":"Technology","owner":88}
+{"id_supplier":18,"name_supplier":"Randolph Bancorp, Inc.","city_supplier":"Saint Petersburg","sector_supplier":"Finance","owner":2}
+{"id_supplier":44,"name_supplier":"ChipMOS TECHNOLOGIES INC.","city_supplier":"Saratov","sector_supplier":"Technology","owner":66}
+{"id_supplier":65,"name_supplier":"Hartford Financial Services Group, Inc. (The)","city_supplier":"Berlin","sector_supplier":"Finance","owner":48}
+{"id_supplier":60,"name_supplier":"State Street Corporation","city_supplier":"Barcelona","sector_supplier":"Finance","owner":76}
+{"id_supplier":52,"name_supplier":"Penumbra, Inc.","city_supplier":"Prague","sector_supplier":"Health Care","owner":99}
+{"id_supplier":64,"name_supplier":"Teva Pharmaceutical Industries Limited","city_supplier":"Hamburg","sector_supplier":"Health Care","owner":29}
+{"id_supplier":40,"name_supplier":"Viking Therapeutics, Inc.","city_supplier":"Brussels","sector_supplier":"Health Care","owner":6}
+{"id_supplier":22,"name_supplier":"Dollar General Corporation","city_supplier":"Rome","sector_supplier":"Consumer Services","owner":12}
+{"id_supplier":66,"name_supplier":"KMG Chemicals, Inc.","city_supplier":"Warsaw","sector_supplier":"Basic Industries","owner":16}
+{"id_supplier":62,"name_supplier":"PPL Corporation","city_supplier":"Paris","sector_supplier":"Public Utilities","owner":83}
+{"id_supplier":80,"name_supplier":"ARI Network Services, Inc.","city_supplier":"Nizhny Novgorod","sector_supplier":"Technology","owner":84}
+{"id_supplier":17,"name_supplier":"Suncor Energy  Inc.","city_supplier":"London","sector_supplier":"Energy","owner":3}
+{"id_supplier":45,"name_supplier":"Marine Petroleum Trust","city_supplier":"Ufa","sector_supplier":"Energy","owner":55}
+{"id_supplier":10,"name_supplier":"Pentair plc.","city_supplier":"Saratov","sector_supplier":"Technology","owner":3}
+{"id_supplier":99,"name_supplier":"BlackRock, Inc.","city_supplier":"Vienna","sector_supplier":"Finance","owner":53}
+{"id_supplier":4,"name_supplier":"FalconStor Software, Inc.","city_supplier":"Milan","sector_supplier":"Technology","owner":3}
+{"id_supplier":43,"name_supplier":"DISH Network Corporation","city_supplier":"Ufa","sector_supplier":"Consumer Services","owner":42}
+{"id_supplier":76,"name_supplier":"WPP plc","city_supplier":"Kharkiv","sector_supplier":"Technology","owner":87}
+{"id_supplier":85,"name_supplier":"Amphastar Pharmaceuticals, Inc.","city_supplier":"Birmingham","sector_supplier":"Health Care","owner":65}
+{"id_supplier":54,"name_supplier":"ArcBest Corporation","city_supplier":"Budapest","sector_supplier":"Transportation","owner":1}
+{"id_supplier":75,"name_supplier":"Stewardship Financial Corp","city_supplier":"Sofia","sector_supplier":"Finance","owner":100}
+{"id_supplier":61,"name_supplier":"Bank of America Corporation","city_supplier":"Madrid","sector_supplier":"Finance","owner":64}
+{"id_supplier":73,"name_supplier":"KBL Merger Corp. IV","city_supplier":"Saratov","sector_supplier":"Finance","owner":27}
+{"id_supplier":27,"name_supplier":"Uni-Pixel, Inc.","city_supplier":"Vienna","sector_supplier":"Capital Goods","owner":33}
+{"id_supplier":28,"name_supplier":"Nova Lifestyle, Inc","city_supplier":"Warsaw","sector_supplier":"Consumer Durables","owner":26}
+{"id_supplier":14,"name_supplier":"Liberty Property Trust","city_supplier":"Bucharest","sector_supplier":"Consumer Services","owner":7}
+{"id_supplier":86,"name_supplier":"ATA Inc.","city_supplier":"Warsaw","sector_supplier":"Consumer Services","owner":17}
+{"id_supplier":59,"name_supplier":"Timberland Bancorp, Inc.","city_supplier":"Milan","sector_supplier":"Finance","owner":23}
+{"id_supplier":29,"name_supplier":"Liberty Tax, Inc.","city_supplier":"Budapest","sector_supplier":"Miscellaneous","owner":64}
+{"id_supplier":89,"name_supplier":"Armada Hoffler Properties, Inc.","city_supplier":"Moscow","sector_supplier":"Finance","owner":null}
+{"id_supplier":2,"name_supplier":"Cohen & Steers Inc","city_supplier":"Moscow","sector_supplier":"Finance","owner":null}
+{"id_supplier":56,"name_supplier":"First Trust International Multi-Asset Diversified Income Index","city_supplier":"Madrid","sector_supplier":"Education","owner":62}
+{"id_supplier":51,"name_supplier":"CP Company","city_supplier":"London","sector_supplier":"Education","owner":63}
+{"id_supplier":39,"name_supplier":"Royce Value Trust, Inc.","city_supplier":"Birmingham","sector_supplier":"Education","owner":47}
+{"id_supplier":71,"name_supplier":"MFS Government Markets Income Trust","city_supplier":"Samara","sector_supplier":"Education","owner":33}
+{"id_supplier":57,"name_supplier":"Alere Inc.","city_supplier":"Rome","sector_supplier":"Education","owner":76}
+{"id_supplier":25,"name_supplier":"Cohen & Steers Closed-End Opportunity Fund, Inc.","city_supplier":"Minsk","sector_supplier":"Education","owner":12}
+{"id_supplier":82,"name_supplier":"Western Asset/Claymore U.S. Treasury Inflation Prot Secs Fd","city_supplier":"Milan","sector_supplier":"Education","owner":93}
+{"id_supplier":47,"name_supplier":"Eaton vance Floating-Rate Income Plus Fund","city_supplier":"Smolensk","sector_supplier":"Education","owner":48}
+{"id_supplier":77,"name_supplier":"PowerShares 1-30 Laddered Treasury Portfolio","city_supplier":"Kiev","sector_supplier":"Education","owner":39}
+{"id_supplier":87,"name_supplier":"Nuveen Preferred Income Opportunites Fund","city_supplier":"Minsk","sector_supplier":"Education","owner":59}
+{"id_supplier":63,"name_supplier":"Drive Shack Inc.","city_supplier":"London","sector_supplier":"Education","owner":36}
+{"id_supplier":16,"name_supplier":"Codexis, Inc.","city_supplier":"Moscow","sector_supplier":"Basic Industries","owner":null}
+{"id_supplier":84,"name_supplier":"Dynex Capital, Inc.","city_supplier":"Kazan","sector_supplier":"Education","owner":94}
+{"id_supplier":31,"name_supplier":"Equus Total Return, Inc.","city_supplier":"Ekateriburg","sector_supplier":"Education","owner":83}
+{"id_supplier":74,"name_supplier":"Dynagas LNG Partners LP","city_supplier":"Bucharest","sector_supplier":"Education","owner":100}
+{"id_supplier":34,"name_supplier":"American Homes 4 Rent","city_supplier":"Milan","sector_supplier":"Education","owner":77}
+{"id_supplier":67,"name_supplier":"PIMCO New York Municipal Income Fund","city_supplier":"Minsk","sector_supplier":"Education","owner":37}
+{"id_supplier":90,"name_supplier":"Allstate Corporation (The)","city_supplier":"Saint Petersburg","sector_supplier":"Education","owner":27}
+{"id_supplier":79,"name_supplier":"Brunswick Corporation","city_supplier":"Vienna","sector_supplier":"Energy","owner":null}
+{"id_supplier":49,"name_supplier":"Luxottica Group, S.p.A.","city_supplier":"Berlin","sector_supplier":"Health Care","owner":null}
+{"id_supplier":33,"name_supplier":"Schweitzer-Mauduit International, Inc.","city_supplier":"Munich","sector_supplier":"Basic Industries","owner":null}
+{"id_supplier":58,"name_supplier":"Wells Fargo & Company","city_supplier":"Paris","sector_supplier":"Education","owner":null}
+{"id_supplier":7,"name_supplier":"Global X NASDAQ China Technology ETF","city_supplier":"Belgrade","sector_supplier":"Education","owner":null}
+{"id_supplier":9,"name_supplier":"First Trust NASDAQ Technology Dividend Index Fund","city_supplier":"Smolensk","sector_supplier":"Education","owner":2}
+{"id_supplier":200,"name_supplier":"Kazahstan Co","city_supplier":"Nur-Sultan","sector_supplier":"Finance","owner":null}
+{"id_supplier":46,"name_supplier":"Turkish Investment Fund, Inc. (The)","city_supplier":"Moscow","sector_supplier":"Education","owner":null}
+{"id_supplier":69,"name_supplier":"Teekay Offshore Partners L.P.","city_supplier":"Moscow","sector_supplier":"Education","owner":null}
+{"id_supplier":11,"name_supplier":"Papa John's International, Inc.","city_supplier":"Kiev","sector_supplier":"Consumer Services","owner":null}
+{"id_supplier":95,"name_supplier":"CF Corporation","city_supplier":"Kharkiv","sector_supplier":"Finance","owner":null}
+{"id_supplier":91,"name_supplier":"Applied Materials, Inc.","city_supplier":"Sofia","sector_supplier":"Technology","owner":null}
+{"id_supplier":1,"name_supplier":"Rigel Pharmaceuticals, Inc.","city_supplier":"Kazan","sector_supplier":"Health Care","owner":null}
+{"id_supplier":55,"name_supplier":"Genesco Inc.","city_supplier":"Belgrade","sector_supplier":"Consumer Services","owner":null}
+{"id_supplier":42,"name_supplier":"National Instruments Corporation","city_supplier":"Belgrade","sector_supplier":"Technology","owner":null}
+{"id_supplier":26,"name_supplier":"Medley LLC","city_supplier":"Hamburg","sector_supplier":"Finance","owner":null}
+{"id_supplier":94,"name_supplier":"U.S. Global Investors, Inc.","city_supplier":"Kiev","sector_supplier":"Finance","owner":null}
+{"id_supplier":70,"name_supplier":"First Mid-Illinois Bancshares, Inc.","city_supplier":"Ufa","sector_supplier":"Finance","owner":null}
+{"id_supplier":36,"name_supplier":"Corning Incorporated","city_supplier":"Nizhny Novgorod","sector_supplier":"Education","owner":null}
+{"id_supplier":72,"name_supplier":"Organovo Holdings, Inc.","city_supplier":"Prague","sector_supplier":"Health Care","owner":84}
+{"id_supplier":92,"name_supplier":"A. Schulman, Inc.","city_supplier":"Belgrade","sector_supplier":"Basic Industries","owner":57}
+{"id_supplier":68,"name_supplier":"Atlantic American Corporation","city_supplier":"Saint Petersburg","sector_supplier":"Finance","owner":59}
+{"id_supplier":38,"name_supplier":"Cabot Microelectronics Corporation","city_supplier":"Sofia","sector_supplier":"Technology","owner":82}
+{"id_supplier":50,"name_supplier":"PS Business Parks, Inc.","city_supplier":"Hamburg","sector_supplier":"Consumer Services","owner":53}
+{"id_supplier":130,"name_supplier":"KFI","city_supplier":"LA","sector_supplier":"Basic Industries","owner":null}
