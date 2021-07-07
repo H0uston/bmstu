@@ -1,0 +1,8 @@
+Тестовые значения:
+Enter height of person (in sm): 182
+Enter length of rib cage(in sm): 95
+Enter weight of person(in kg): 65
+
+Результат:
+Normal weight: 72.041664
+Index of weight: 19.623234

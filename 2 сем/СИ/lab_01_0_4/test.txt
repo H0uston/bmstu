@@ -1,0 +1,11 @@
+Тестовые значения:
+Enter amount of money: 150
+
+Результат
+Number of bottle: 5
+
+Тестовые значения:
+Enter amount of money: 0
+
+Результат
+Number of bottle: 0

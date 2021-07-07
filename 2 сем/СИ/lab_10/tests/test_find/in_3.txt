@@ -1,0 +1,11 @@
+Earth
+12742
+
+Comet
+3.12
+
+Mars
+6780
+
+Comet
+10

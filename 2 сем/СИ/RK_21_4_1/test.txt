@@ -1,0 +1,11 @@
+Num: 356
+a & b: 6 4
+Result: 35
+
+Num: 14583
+a & b: 5 3
+Result: 148
+
+Num: 355
+a & b: 3 5
+Result: Error

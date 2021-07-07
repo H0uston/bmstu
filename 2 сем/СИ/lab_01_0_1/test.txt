@@ -1,0 +1,4 @@
+Enter a: 2
+Enter b: 10
+Enter h: 3
+Perimetr is 22.000000
